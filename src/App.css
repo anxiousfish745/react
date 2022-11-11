@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +35,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.BakeryItem items{
+  display: flex;
+  padding: 20px;
+}
+
+.bakeryItems{
+  
+    display: flexbox;
+    width: 60%;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+.bakeryItems img{
+    display: flex;
+    width:40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.filter{
+    width:20%;
+    border: 1px solid #ccc!important;
+}
+.cart{
+    padding: 0 1rem;
+    width: 20%;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    border-radius: 25px;
+    border: 2px solid #d1d1d1;
+    padding: 20px;
+    text-align: center;
+
 }

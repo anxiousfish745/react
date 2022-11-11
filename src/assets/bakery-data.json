@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Oatmeal Cookies",
+    "description": "Crispy on the outside and fantastically chewy on the inside, our gluten free oatmeal cookies are better than any chocolate chip cookie around!",
+    "price": 2.5,
+    "calories":80,
+    "type":"Pastry",
+    "restriction" : "Gluten-free",
+    "image": "images/oatmealcookies.png"
+  },
+  {
+    "name": "Coconut Macaroons",
+    "description": "It's sweet and tastes like coconut. What more could you want? This gluten free treat is sold by the half-dozen.",
+    "price": 4,
+    "calories":97,
+    "type":"Pastry",
+    "restriction" : ["Dairy-free", "Nut-free"],
+    "image": "images/coconutmacaroons.png"
+  },
+  {
+    "name": "Croissant",
+    "description": "Be captivated by the tantalizing scent of our freshly baked, buttery croissants. Seriously delicious and we'll have a fresh batch waiting for you at any time of the day.",
+    "price": 2.5,
+    "calories":110,
+    "type":"Pastry",
+    "restriction" : "Nut-free",
+    "image": "images/croissant.png"
+  },
+  {
+    "name": "Maple pecan croissant",
+    "description": "Completely sinful, buttery with a sweet surprising crunch. Our flagship product, these croissants are incredible at any time.",
+    "price": 3.5,
+    "calories":110,
+    "type":"Pastry",
+    "restriction" : "Dairy-free",
+    "image": "images/maplepecancroissant.png"
+  },
+  {
+    "name": "Cinnamon Apple Turnover",
+    "description": "Our famous apple turnovers are spiced with cinnamon and nutmeg, a perfect pastry for a cold day out.",
+    "price": 2.5,
+    "calories":120,
+    "type":"Pastry",
+    "restriction" : "Nut-free",
+    "image": "images/cinnamonappleturnover.png"
+  },
+  {
+    "name": "Orange Muffins",
+    "description": "Experience the delicate flavors of vanilla and citrus from fresh orange juice and zest! This muffin is going to blow you away!",
+    "price": 4.5,
+    "calories":130,
+    "type":"Pastry",
+    "restriction" : "Nut-free",
+    "image": "images/orangemuffins.png"
+  },
+  {
+    "name": "Blueberry Pound Cake",
+    "description": "A delightful seasonal gluten free pound cake with fresh blueberries baked in, perfect for a breakfast treat, afternoon snack, or delicious dessert.",
+    "price": 26,
+    "calories":930,
+    "type":"Cake",
+    "restriction" : "Nut-free",
+    "image": "images/blueberrypoundcake.png"
+  },
+  {
+    "name": "Rosemary Ciabatta",
+    "description": "Our Rosemary Ciabatta is truly something special. Baked from a 150 year old recipe, it’ll be the star at your table anyday.",
+    "price": 4,
+    "calories":1230,
+    "type":"Bread",
+    "restriction" : ["Dairy-free","Nut-free"],
+    "image": "images/rosemaryciabatta.png"
+  },
+  {
+    "name": "Classic French Brioche",
+    "description": "Deliciously crisp on the outside and buttery soft on the inside, our brioche loaves will be in an instant hit in your home.",
+    "price": 13,
+    "calories":1300,
+    "type":"Bread",
+    "restriction" : "Nut-free",
+    "image": "images/rosemaryciabatta.png"
+  },
+  {
+    "name": "Cheesecake",
+    "description": "Sweet-tart apricot jam is the perfect counterpoint to this gluten free cheesecake. Infused with Madagascar vanilla, this is a showstopper.",
+    "price": 40,
+    "calories":1300,
+    "type":"Cake",
+    "restriction" : ["Nut-free","Gluten-free"],
+    "image": "images/classicfrenchbrioche.png"
+  },
+  {
+    "name": "Strawberry Shortcake",
+    "description": "Made with perfectly fluffy and tender buttermilk biscuits, sweetened fresh strawberry slices and a rich, light as air whipped cream.",
+    "price": 37,
+    "calories":1650,
+    "type":"Cake",
+    "restriction" :"Nut-free",
+    "image": "images/strawberryshortcake.png"
+  },
+  {
+    "name": "Pumpkin Pie",
+    "description": "A rich, spicy gluten free pie that has a bright pumpkin flavor. This brings Fall right to your dining table.",
+    "price": 28,
+    "calories":2400,
+    "type":"Cake",
+
+    "restriction" :["Gluten-free","Nut-free"],
+    "image": "images/pumpkinpie.png"
+  }
+
+]
