@@ -47,8 +47,10 @@ Efficiency:
 I think the page is quite straightforward, and the users should easily navigate and use the functions.
 
 ### Organization of Components
+As mentioned, I have only used one seperate component, which is BakeryItem. 
 
 ### How Data is Passed Down Through Components
+I used props to pass the data. (See BakeryItem.js and line 254-267 in APP.js)
 
 ### How the User Triggers State Changes
-
+In the navbar, when the user clicked the corresponsing key, the"onSelect={(selectedKey) => selectXXX" will be triggered with the keys, and it operates the function at the top of the code, like "selectFilterType", "selectFilterRestriction" and "selectSort" , which uses the corresponsing matchesXXX's returned value for the state changes.
