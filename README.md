@@ -11,10 +11,12 @@ This application is a simple bakery shopping site, where the users can filter th
 2. filter by dietary restrictions
 
 
-**At least 1 sorting feature**
+**At least 1 sorting feature**  
+
 The users can sort by the price and go back to the default display by popularity
 
-**Combinations of sorting/filtering work together**
+**Combinations of sorting/filtering work together**  
+
 Tested working
 
 **Ways to add and remove items**  
