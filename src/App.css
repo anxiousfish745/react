@@ -37,20 +37,17 @@
   }
 }
 
-.BakeryItem items{
-  display: flex;
-  padding: 20px;
-}
 
-.bakeryItems{
+.flex-container{
   
-    display: flexbox;
-    width: 60%;
-    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:60%;
     background-color: antiquewhite;
 }
 
-.bakeryItems img{
+.flex-container img{
     display: flex;
     width:40%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
