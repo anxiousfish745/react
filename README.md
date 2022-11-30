@@ -1,7 +1,7 @@
 # Development
 
 ### Link to Deployed Website
-If you used the stencil code, this is `https://<your GitHub username>.github.io/<name of your repository>`
+If you used the stencil code, this is `https://anxiousfish745.github.io/react/`
 
 ### Goal and Value of the Application
 This application is a simple bakery shopping site, where the users can filter the items by their types(pastry, cake, etc.) and dietary restrictions(gluten-free, but-free, etc.), while sorting by the price(lowest - higest or vice versa), and see the most popular ones(the defalut display).
@@ -17,7 +17,7 @@ The users can sort by the price and go back to the default display by popularity
 
 **Combinations of sorting/filtering work together**  
 
-Tested working
+Tested.
 
 **Ways to add and remove items**  
 
@@ -29,20 +29,19 @@ The users can reset the cart; the user can also go back to the original display(
 
 **An aggregator Component showing the items and aggregated value**  
 
-The cart aggregater is used to display the corresponding items, and the aggregated value in the cart will change according to the amount and price in the cart. I originally wanted to create a seperated component(.js) for the cart, but I follow the slides, which only have the bakeryItem component...
+The Cart.js aggregater Component is used to display the corresponding items, and the aggregated value in the cart will change according to the amount and price in the cart. 
 
 **Uses Components for the items**  
 
-It is the bakeryItem that I used to display the info of each bakery item.
+It is the bakeryItem.js that I used to display the info of each bakery item.
 
 **Uses props to pass item data to the Components**  
 
-(See BakeryItem.js and line 254-267 in APP.js)
+See BakeryItem.js and APP.js
 
 **Uses state for the list of items, and the UI is reactive to the state**  
 
 When adding/removing from the cart, and sorting/filtering the displayed items, the UI would respond accordingly. 
-(See line 18-26 for useState)
 
 ### Usability Principles Considered
 **Layout:**  
@@ -61,7 +60,7 @@ I think the page is quite straightforward, and the users should easily navigate 
 As mentioned, I have only used one seperate component, which is BakeryItem. 
 
 ### How Data is Passed Down Through Components
-I used props to pass the data. (See BakeryItem.js and line 254-267 in APP.js)
+I used props to pass the needed data. 
 
 ### How the User Triggers State Changes
 In the navbar, when the user clicked the corresponsing key, the"onSelect={(selectedKey) => selectXXX" will be triggered with the keys, and it operates the function at the top of the code, like "selectFilterType", "selectFilterRestriction" and "selectSort" , which uses the corresponsing matchesXXX's returned value for the state changes.
