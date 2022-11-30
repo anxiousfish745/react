@@ -6,6 +6,7 @@ import { Card, Button, Col, Row, NavItem, NavDropdown, CloseButton, Navbar, Cont
 import './App.css';
 import { useState, useEffect } from "react";
 import BakeryItem from "./components/BakeryItem.js";
+import Cart from "./components/Cart.js"
 
 
 bakeryData.forEach((item) => {
@@ -22,7 +23,7 @@ function App() {
   const [filteredData, setFilteredData] = useState(bakeryData);
   //for the cart
   const [cart, setCart] = useState({});
-  const [cartprice,setCartPrice] = useState({})
+  // const [cartprice,setCartPrice] = useState({})
   const [totalPrice, setTotalPrice] = useState(0);
   const Price = {"Oatmeal Cookies":2.5,"Coconut Macaroons":4,"Croissant":2.5,"Maple pecan croissant":3.5,
   "Cinnamon Apple Turnover":2.5, "Orange Muffins":4.5,"Blueberry Pound Cake":26,"Rosemary Ciabatta":4,"Classic French Brioche":13,
@@ -274,12 +275,23 @@ function App() {
             {/* {(cart.length === 0) ? <h5>No Items Added Yet</h5> :  */}
             <div>
               <ul class="list-group">
-                {Object.keys(cart).map((key, index) => {
+                {/* {Object.keys(cart).map((key, index) => {
                   const count = cart[key];
                   return (
                     <p>*{count} {key} <CloseButton className="close" onClick={() => removeItem(key,index)}></CloseButton></p>
                   )
-                })}
+                })} */}
+
+                {Object.keys(cart).map((key) => 
+                  <Cart
+                    cart = {cart}
+                    name = {key}
+                    count = {cart[key]}
+                    total = {totalPrice}
+                    removeItem = {removeItem}
+                    resetCart = {resetCart}>
+                  </Cart>
+                )}
                 {/* {cart.map((item, index) =>
                   <li key={item.name}>{item.name + " $ " + item.price + " "}
                     <CloseButton className="close" onClick={() => removeItem(index, item.price)}></CloseButton>
@@ -290,6 +302,7 @@ function App() {
                                     </li>
                                 ))} */}
               </ul>
+
               <p><b>Total:</b> ${totalPrice}</p>
               <Button variant="outline-success">Check Out</Button>{' '}
               <Button variant="outline-danger" onClick={() => resetCart()}>Reset Cart</Button>
