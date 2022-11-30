@@ -1,7 +1,7 @@
 # Development
 
 ### Link to Deployed Website
-If you used the stencil code, this is `(https://anxiousfish745.github.io/react/)`
+If you used the stencil code, this is [https://anxiousfish745.github.io/react/](https://anxiousfish745.github.io/react/)
 
 ### Goal and Value of the Application
 This application is a simple bakery shopping site, where the users can filter the items by their types(pastry, cake, etc.) and dietary restrictions(gluten-free, but-free, etc.), while sorting by the price(lowest - higest or vice versa), and see the most popular ones(the defalut display).
