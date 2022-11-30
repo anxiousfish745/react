@@ -5,6 +5,7 @@ If you used the stencil code, this is [https://anxiousfish745.github.io/react/](
 
 ### Goal and Value of the Application
 This application is a simple bakery shopping site, where the users can filter the items by their types(pastry, cake, etc.) and dietary restrictions(gluten-free, but-free, etc.), while sorting by the price(lowest - higest or vice versa), and see the most popular ones(the defalut display).
+This can be viewed as a simplified version of many other fancy online shopping sites. I think the overall ideas are quite similar.
 
 **At least 2 filtering categories:**
 1. filter by type
